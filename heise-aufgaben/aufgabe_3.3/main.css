@@ -1,0 +1,42 @@
+body {
+    background-color: whitesmoke;
+    margin: 5px;
+}
+.container {
+    width: inherit;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+h1 {
+    text-align: left;
+}
+img {
+    float: left;
+    border: none;
+    padding: 10px 0px 10px 0px;
+    max-width: 100%;
+    height: auto;
+}
+.textContent {
+    font-size: 12px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+    .imageShell{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 700px;
+    }
+    .imageShell {
+        max-width: 25%;
+    }
+    img {
+        padding-right: 15px;
+    }
+}
